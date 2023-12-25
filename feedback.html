@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Out Why: App Deletion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            cursor: pointer;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello Customer</h1>
+    </header>
+
+    <section>
+        <h2>Introduction:</h2>
+        <p>We understand that you've decided to delete your account in the Agri Academia app. Could you assist us with a small favor?</p>
+    </section>
+
+    <section>
+        <h2>Why Do You Want to Delete?</h2>
+        <p>We would like to understand why you chose to delete your account in the Agri Academia app.</p>
+
+        <form action="https://formspree.io/f/mkndwebl" method="POST">
+            <br>
+            <label for="contactInfo">Your account with us - Email/Mobile:</label>
+            <input type="text" id="contactInfo" name="contactInfo" required>
+            <br>
+            <label for="feedback">Share your feedback here:</label>
+            <textarea id="feedback" name="feedback" ></textarea>
+            <br>
+            <input type="submit"  value="Submit">
+        </form>
+        
+    </section>
+    <section>
+        <h2>Contact Information:</h2>
+        <p>If you need any assistance, please contact us: info@agriacademia.com</p>
+    </section>
+
+    <footer>
+        <p>Farm DSS Agritech Pvt. Ltd.</p>
+    </footer>
+
+</body>
+</html>
